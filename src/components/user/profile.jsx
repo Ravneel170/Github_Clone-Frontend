@@ -10,6 +10,8 @@ import { useNavigate } from 'react-router-dom';
 
 import { useAuth } from '../../authContext';
 
+const API_URL = 'http://18.222.206.28:3000';
+
 const Profile = () => {
 
   const navigate = useNavigate();
@@ -28,7 +30,7 @@ const Profile = () => {
 
         try {
 
-          const res = await axios.get(`http://localhost:3000/userProfile/${userId}`);
+          const res = await axios.get(`${API_URL}/userProfile/${userId}`);
 
           setUserDetails(res.data);
 

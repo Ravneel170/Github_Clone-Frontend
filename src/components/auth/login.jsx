@@ -14,6 +14,8 @@ import "./auth.css";
 
 import logo from "../../assets/github-mark-white.svg";
 
+const API_URL = 'http://18.222.206.28:3000';
+
 const Login = () => {
 
   const [email, setEmail] = useState(null);
@@ -30,7 +32,7 @@ const Login = () => {
 
     try {
 
-      const res = await axios.post('http://localhost:3000/login', {
+      const res = await axios.post(`${API_URL}/login`, {
 
         email: email,
 

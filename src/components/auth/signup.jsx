@@ -15,6 +15,8 @@ import { useAuth } from "../../authContext";
 
 import { useState } from "react";
 
+const API_URL = 'http://18.222.206.28:3000';
+
 
 const Signup = () => {
 
@@ -36,7 +38,7 @@ const Signup = () => {
 
       setLoading(true);
 
-      const res = await axios.post('http://localhost:3000/signup', {
+      const res = await axios.post(`${API_URL}/signup`, {
 
         username: username,
         email: email,

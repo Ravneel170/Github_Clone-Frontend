@@ -6,6 +6,8 @@ import axios from "axios";
   
 import Navbar from "../navbar";
 
+const API_URL = 'http://18.222.206.28:3000';
+
 const Dashboard = () => {
 
   const [repositories, setRepositories] = useState([]);
@@ -25,14 +27,14 @@ const Dashboard = () => {
 
       const fecthUserRepos = async () => {
 
-        const res = await axios.get(`http://localhost:3000/repo/user/${userId}`);
+        const res = await axios.get(`${API_URL}/repo/user/${userId}`);
 
         setRepositories(res.data.repos);
       }
 
       const fetchSuggestedRepos = async () => {
 
-        const res = await axios.get('http://localhost:3000/repo/all');
+        const res = await axios.get(`${API_URL}/repo/all`);
 
         setSuggestedRepositories(res.data);
       }
