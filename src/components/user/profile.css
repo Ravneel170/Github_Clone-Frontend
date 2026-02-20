@@ -1,0 +1,91 @@
+.overview {
+
+  display: flex;
+
+  border-bottom: 2px solid black;
+
+  background-color: black;
+
+  color: white;
+
+  align-items: center;
+
+  height: 65px;
+}
+
+.overview p {
+
+  margin-left: 20px;
+
+  cursor: pointer;
+}
+
+#first {
+
+  border-bottom: 2px solid orange;
+
+  font-weight: bold;
+
+  padding: 10px;
+}
+
+#second:hover {
+
+  text-decoration: underline;
+}
+
+.profile-page-wrapper {
+  display: flex;
+  min-height: 100vh;
+  color: whitesmoke;
+  width: 100%;
+  /* flex-wrap: wrap; */
+}
+
+.user-profile-section {
+  width: 250px;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  padding: 40px 10px;
+}
+
+.user-name {
+  /* width: 250px; */
+  margin: 10px 20px 10px 10px;
+  /* margin: 10px auto; */
+}
+
+.profile-image {
+  margin: 10px auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.follow-btn {
+  background-color: #20272d;
+  width: 250px;
+  margin: 10px auto;
+  height: 40px;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+
+.follower {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 30px;
+  gap: 10px;
+  margin: 10px auto;
+  color: black;
+}
+
+#logout{
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
