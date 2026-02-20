@@ -15,7 +15,7 @@ import { useAuth } from "../../authContext";
 
 import { useState } from "react";
 
-const API_URL = 'http://18.222.206.28:3000';
+const API_URL = 'https://abcd1234.ngrok.io';
 
 
 const Signup = () => {

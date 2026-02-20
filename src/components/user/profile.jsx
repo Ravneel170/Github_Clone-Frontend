@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { useAuth } from '../../authContext';
 
-const API_URL = 'http://18.222.206.28:3000';
+const API_URL = 'https://abcd1234.ngrok.io';
 
 const Profile = () => {
 

@@ -14,7 +14,7 @@ import "./auth.css";
 
 import logo from "../../assets/github-mark-white.svg";
 
-const API_URL = 'http://18.222.206.28:3000';
+const API_URL = 'https://abcd1234.ngrok.io';
 
 const Login = () => {
 
