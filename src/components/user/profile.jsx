@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { useAuth } from '../../authContext';
 
-const API_URL = 'https://abcd1234.ngrok.io';
+const API_URL = 'https://exoteric-edgiest-garland.ngrok-free.dev';
 
 const Profile = () => {
 

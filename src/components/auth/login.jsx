@@ -14,7 +14,7 @@ import "./auth.css";
 
 import logo from "../../assets/github-mark-white.svg";
 
-const API_URL = 'https://abcd1234.ngrok.io';
+const API_URL = 'https://exoteric-edgiest-garland.ngrok-free.dev';
 
 const Login = () => {
 
